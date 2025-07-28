@@ -1,7 +1,7 @@
 import { Card } from '@/components'
 
 export const CanDoCard = () => (
-  <Card emoji="🪄" heading="Things I can do">
+  <Card emoji="🪄" heading="Things I Can Do">
     <p>
       – Understand the problem → research, ideate and roadmap solutions →
       deliver

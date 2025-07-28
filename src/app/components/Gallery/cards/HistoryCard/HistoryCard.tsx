@@ -7,8 +7,8 @@ export const HistoryCard = () => (
       pursue a full-time career
     </p>
     <p>
-      – Led Frontend Development of new products at Sequencing, crucial for
-      securing Series A funding
+      – Led Frontend Development of new products crucial for securing Series A
+      funding at Sequencing
     </p>
     <p>
       – Architected and led Frontend of a CMS for Astana International

@@ -31,10 +31,10 @@ export const Gallery = () => (
           <CareerPlanCard />
           <StackCard />
           <div className="flex flex-col gap-4 md:flex-row">
-            <div className="md:basis-auto lg:basis-6/12">
+            <div className="md:basis-6/12">
               <ExpertCard />
             </div>
-            <div className="md:flex-1 lg:basis-6/12">
+            <div className="md:basis-6/12">
               <LearnCard />
             </div>
           </div>

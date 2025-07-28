@@ -4,8 +4,8 @@ export const PersonalityCard = () => (
   <Card emoji="✨" heading="Personality">
     <p>– Core values: freedom, authenticity, potential</p>
     <p>
-      – CS34 (CliftonStrengths): futuristic, learner, responsibility, maximizer,
-      ideation
+      – CliftonStrengths (top 5): futuristic, learner, responsibility,
+      maximizer, ideation
     </p>
     <p>
       – OCEAN: intellectually curious; orderly and principled; exceptionally
