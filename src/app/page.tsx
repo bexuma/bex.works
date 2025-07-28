@@ -40,10 +40,10 @@ const HomePage = () => (
               </div>
             </div>
             <div className="flex flex-col gap-4 md:flex-row">
-              <div className="sm:basis-auto">
+              <div className="md:w-auto">
                 <StartupCard />
               </div>
-              <div className="sm:flex-1">
+              <div className="md:flex-1">
                 <ContactCard />
               </div>
             </div>
