@@ -1,13 +1,13 @@
 import { Card } from '@/components'
 
 export const HistoryCard = () => (
-  <Card emoji="🌟" heading="Latest History">
+  <Card emoji="🌟" heading="Latest history">
     <p>
       – Founded a SaaS startup with an EDMS for universities; sunsetted to
       pursue a full-time career
     </p>
     <p>
-      – Led Frontend Development of new products crucial for securing Series A
+      – Led Frontend Development of new products pivotal to securing Series A
       funding at Sequencing
     </p>
     <p>

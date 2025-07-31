@@ -8,7 +8,7 @@ export const PersonalityCard = () => (
       maximizer, ideation
     </p>
     <p>
-      – OCEAN: intellectually curious; orderly and principled; exceptionally
+      – Big Five: intellectually curious; orderly and principled; exceptionally
       enthusiastic and highly assertive; compassionate yet candid; emotionally
       steady
     </p>
