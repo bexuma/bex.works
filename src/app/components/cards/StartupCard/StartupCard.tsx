@@ -4,7 +4,7 @@ import Link from 'next/link'
 export const StartupCard = () => (
   <Card emoji="📂" heading="Startup">
     <Link href="/sqko" className="text-blue-600 underline">
-      Showcase
+      Case Study
     </Link>
   </Card>
 )
