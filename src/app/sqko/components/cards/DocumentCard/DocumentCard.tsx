@@ -9,7 +9,8 @@ export const DocumentCard = () => (
     <iframe
       title="card"
       src="/card.pdf"
-      className="h-[450px] w-full rounded-lg border border-gray-200 sm:h-[450px] md:h-[570px] xl:h-[520px] 2xl:h-[570px]"
+      // type="application/pdf"
+      className="h-[450px] w-full min-w-[290px] rounded-lg border border-gray-200 sm:h-[450px] md:h-[570px] xl:h-[520px] 2xl:h-[570px]"
     ></iframe>
   </Card>
 )
