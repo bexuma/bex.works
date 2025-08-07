@@ -12,7 +12,7 @@ import {
 } from './components'
 
 const HomePage = () => (
-  <main className="flex min-h-[calc(100vh-128px)] flex-col justify-center bg-white pt-4 font-sans">
+  <main className="flex min-h-[calc(100vh-128px)] flex-col justify-center pt-4 font-sans">
     <div className="px-4">
       <div className="container mx-auto lg:max-w-screen-lg">
         <div className="mb-4 flex flex-col gap-4 md:flex-row">

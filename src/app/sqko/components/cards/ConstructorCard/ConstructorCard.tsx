@@ -22,7 +22,7 @@ export const ConstructorCard = () => (
           alt=""
           width={1600}
           height={972}
-          className="h-auto w-full rounded-lg border border-gray-200 object-contain"
+          className="border-light-300 dark:border-dark-300 h-auto w-full rounded-lg border object-contain"
         />
       </div>
       <p>
@@ -43,7 +43,7 @@ export const ConstructorCard = () => (
           alt=""
           width={1600}
           height={972}
-          className="h-auto w-full rounded-lg border border-gray-200 object-contain"
+          className="border-light-300 dark:border-dark-300 h-auto w-full rounded-lg border object-contain"
         />
       </div>
     </div>

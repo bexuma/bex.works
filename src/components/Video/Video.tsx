@@ -8,7 +8,7 @@ export const Video = ({ fileName }: VideoProps) => (
     loop
     muted
     playsInline
-    className="h-full w-full overflow-hidden rounded-lg border border-gray-200 object-contain"
+    className="border-light-300 dark:border-dark-300 h-full w-full overflow-hidden rounded-lg border object-contain"
   >
     <source src={`/${fileName}.webm`} type="video/webm" />
     <source src={`/${fileName}.mp4`} type="video/mp4" />

@@ -6,7 +6,7 @@ export const HistoryCard = () => (
     <ul className="space-y-1">
       <li className="before:mr-1 before:content-['–']">
         Founded a SaaS startup with an EDMS for universities;{' '}
-        <Link href="/sqko" className="text-blue-600 underline">
+        <Link href="/sqko" className="text-indigo-600 underline">
           sunsetted to pursue a full-time career
         </Link>
       </li>

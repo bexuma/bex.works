@@ -6,7 +6,9 @@ export const BusinessCard = () => (
       <p className="text-base capitalize sm:text-lg">
         university project turned into startup
       </p>
-      <p className="text-sm sm:text-base">January 2019 — March 2025</p>
+      <p className="text-light-500 dark:text-dark-500 text-sm sm:text-base">
+        January 2019 — March 2025
+      </p>
     </div>
   </Card>
 )

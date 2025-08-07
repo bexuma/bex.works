@@ -1,8 +1,8 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: var(--color-light-200);
+  --foreground: var(--color-light-400);
 }
 
 @theme inline {
@@ -10,6 +10,23 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  --color-light-100: oklch(100% 0 0);
+  --color-light-200: oklch(98% 0 0);
+  --color-light-300: oklch(95% 0 0);
+  --color-light-400: oklch(21% 0.006 285.885);
+  --color-light-500: rgb(116, 116, 118);
+  --color-dark-100: oklch(25.33% 0.016 252.42);
+  --color-dark-200: oklch(23.26% 0.014 253.1);
+  --color-dark-300: oklch(21.15% 0.012 254.09);
+  --color-dark-400: oklch(97.807% 0.029 256.847);
+  --color-dark-500: rgb(155, 164, 177);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: var(--color-dark-200);
+    --foreground: var(--color-dark-400);
+  }
 }
 
 body {
@@ -19,5 +36,5 @@ body {
 }
 
 .inline-code {
-  @apply rounded bg-gray-100 px-1 py-0.5 font-mono text-sm;
+  @apply rounded bg-light-300 text-light-400 dark:text-dark-400 px-1 py-0.5 font-mono text-sm;
 }

@@ -21,7 +21,7 @@ export const CodeWindow = ({ code }: CodeWindowProps) => {
   )
 
   return (
-    <div className="flex h-full flex-col rounded-lg border border-gray-200 font-mono text-sm">
+    <div className="border-light-300 dark:border-dark-300 flex h-full flex-col rounded-lg border font-mono text-sm">
       <div className="flex shrink-0 flex-row overflow-hidden rounded-t-lg border-b border-[#3c3c3c] bg-[#252526]">
         {Object.keys(files).map((file) => (
           <button
