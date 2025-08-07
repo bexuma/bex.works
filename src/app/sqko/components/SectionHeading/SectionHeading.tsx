@@ -8,7 +8,7 @@ export const SectionHeading = ({
   isMedium = false,
 }: SectionHeading) => (
   <div
-    className={`${isMedium ? 'pt-2 pb-2' : 'py-6'} flex items-center gap-2 sm:gap-4`}
+    className={`${isMedium ? 'my-2' : 'my-6'} flex items-center gap-2 sm:gap-4`}
   >
     <div className="flex-grow border-t border-gray-300" />
     <h2 className={`text-center ${isMedium ? 'text-lg' : 'text-2xl'}`}>
