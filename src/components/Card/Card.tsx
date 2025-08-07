@@ -3,6 +3,7 @@ interface CardProps {
   centerHeading?: boolean
   emoji?: string
   isMain?: boolean
+  noSpacing?: boolean
   children?: React.ReactNode
 }
 
@@ -11,12 +12,13 @@ export const Card = ({
   centerHeading = false,
   emoji,
   isMain = false,
+  noSpacing = false,
   children,
 }: CardProps) => (
   <div
     className={`flex h-full flex-col ${
-      isMain ? 'justify-center text-center' : 'space-y-2'
-    } rounded-2xl border-1 border-b-gray-500 bg-amber-50 p-4`}
+      isMain && 'justify-center text-center'
+    } ${noSpacing || isMain ? 'space-y-0' : 'space-y-2'} rounded-2xl border-1 border-b-gray-500 bg-amber-50 p-4`}
   >
     <h4
       className={`${emoji ? 'self-start' : 'self-center'} text-lg font-semibold capitalize ${isMain || centerHeading ? 'sm:self-center' : 'sm:self-start'}`}
