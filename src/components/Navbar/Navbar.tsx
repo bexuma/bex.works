@@ -2,10 +2,9 @@ import Link from 'next/link'
 import { NewTabIcon } from '../NewTabIcon'
 
 export const Navbar = () => (
-  <nav className="sticky top-0 flex bg-white px-4 shadow-xs">
-    {/* <nav className="flex px-4"> */}
+  <nav className="sticky top-0 flex bg-white px-4 font-sans shadow-sm">
     <div className="container mx-auto flex h-16 flex-row items-center justify-between">
-      <Link href="/" className="font-semibold">
+      <Link href="/" className="ml-[-16px] p-4 font-bold">
         Bex!
       </Link>
       <Link
