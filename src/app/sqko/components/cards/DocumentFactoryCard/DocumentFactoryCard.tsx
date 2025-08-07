@@ -18,11 +18,10 @@ export const DocumentFactoryCard = () => (
       templates, we started suffixing ticket numbers to the files, which
       resulted in the creation of a clear versioning and bug-tracking system.
     </p>
-
     <div>
       <SectionHeading isMedium heading="Postman Workspace" />
       <Image
-        src="/Postman.webp"
+        src="/postman.webp"
         alt=""
         width={1600}
         height={972}
