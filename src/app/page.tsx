@@ -12,7 +12,7 @@ import {
 } from './components'
 
 const HomePage = () => (
-  <main className="flex min-h-[calc(100vh-128px)] flex-col justify-center bg-white py-4">
+  <main className="flex min-h-[calc(100vh-128px)] flex-col justify-center bg-white py-4 font-sans">
     <div className="px-4">
       <div className="container mx-auto lg:max-w-screen-lg">
         <div className="mb-4 flex flex-col gap-4 md:flex-row">
@@ -40,7 +40,7 @@ const HomePage = () => (
               </div>
             </div>
             <div className="flex flex-col gap-4 md:flex-row">
-              <div className="md:w-auto">
+              <div className="md:basis-auto">
                 <StartupCard />
               </div>
               <div className="md:flex-1">

@@ -1,17 +1,14 @@
-import { Card } from '@/components'
+import { Card, List } from '@/components'
 
 export const PersonalityCard = () => (
   <Card emoji="✨" heading="Personality">
-    <p>– Core values: freedom, authenticity, potential</p>
-    <p>
-      – CliftonStrengths (top 5): futuristic, learner, responsibility,
-      maximizer, ideation
-    </p>
-    <p>
-      – Big Five: intellectually curious; orderly and principled; exceptionally
-      enthusiastic and highly assertive; compassionate yet candid; emotionally
-      steady
-    </p>
-    <p>– MBTI: ENFJ</p>
+    <List
+      list={[
+        'Core values: freedom, authenticity, potential',
+        'CliftonStrengths (top 5): futuristic, learner, responsibility, maximizer, ideation',
+        'Big Five: intellectually curious; orderly and principled; highly enthusiastic and assertive; compassionate yet candid; emotionally steady',
+        'MBTI: ENFJ',
+      ]}
+    />
   </Card>
 )

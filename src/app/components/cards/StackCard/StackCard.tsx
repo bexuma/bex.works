@@ -1,10 +1,8 @@
 import { Card } from '@/components'
+import { SNAP_STACK } from './constants'
 
 export const StackCard = () => (
-  <Card emoji="⚡️" heading="Snap Stack">
-    <p>
-      JavaScript, TypeScript, React, Next.js, Node.js, Prisma, PostgreSQL,
-      Pothos GraphQL, Apollo Client, Tailwind CSS, MUI, Amazon Web Services
-    </p>
+  <Card emoji="⚡️" heading="Snap stack">
+    <p>{SNAP_STACK.join(', ')}</p>
   </Card>
 )

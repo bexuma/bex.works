@@ -1,15 +1,13 @@
-import { Card } from '@/components'
+import { Card, List } from '@/components'
 
 export const CanDoCard = () => (
-  <Card emoji="🪄" heading="Things I Can Do">
-    <p>
-      – Understand the problem → research, ideate and roadmap solutions →
-      deliver
-    </p>
-    <p>
-      – Develop, connect and deploy frontend, backend, mobile apps → set up
-      analytics
-    </p>
-    <p>– Listen, mentor and inspire people</p>
+  <Card emoji="🪄" heading="Things I can do">
+    <List
+      list={[
+        'Understand the problem → research, ideate and present solutions → deliver',
+        'Roadmap, develop, set up analytics and deploy web and mobile applications',
+        'Listen, mentor and inspire people',
+      ]}
+    />
   </Card>
 )

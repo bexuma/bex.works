@@ -1,4 +1,6 @@
-export const LINKS = [
+import { ContactLinkType } from '.'
+
+export const LINKS: ContactLinkType[] = [
   {
     label: 'Resume',
     url: '/resume.pdf',
