@@ -2,7 +2,7 @@ import { Card } from '@/components'
 
 export const DocumentCard = () => (
   <Card heading="Digital documents">
-    <p>
+    <p className="mb-2">
       Upon final signature, the system automatically generated a verifiable,
       finalized digital document.
     </p>

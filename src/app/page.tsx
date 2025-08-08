@@ -13,8 +13,8 @@ import {
 
 const HomePage = () => (
   <main className="flex min-h-[calc(100vh-113px)] flex-col justify-center px-2 pt-2 sm:min-h-[calc(100vh-129px)] sm:px-4 sm:pt-4">
-    <div className="container mx-auto lg:max-w-screen-lg">
-      <div className="mb-4 flex flex-col gap-2 sm:gap-4 md:flex-row">
+    <div className="container mx-auto space-y-2 sm:space-y-4 lg:max-w-screen-lg">
+      <div className="flex flex-col gap-2 sm:gap-4 md:flex-row">
         <div className="md:basis-4/12 lg:basis-3/12">
           <NameCard />
         </div>

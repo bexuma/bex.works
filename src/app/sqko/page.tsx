@@ -187,7 +187,7 @@ const SqkoPage = () => (
             <FormCard />
           </div>
           <div className="lg:col-span-12 xl:col-span-6 xl:row-span-14 2xl:col-span-6 2xl:row-span-1">
-            <div className="flex flex-col gap-2 sm:flex-row sm:gap-4 lg:flex-row-reverse">
+            <div className="flex h-full flex-col gap-2 sm:flex-row sm:gap-4 lg:flex-row-reverse">
               <div className="flex-auto sm:flex-1">
                 <DocumentCard />
               </div>
