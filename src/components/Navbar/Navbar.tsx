@@ -15,7 +15,7 @@ export const Navbar = () => (
       <Link
         rel="noopener noreferrer"
         target="_blank"
-        className="text-light-600 dark:text-dark-400 inline-flex items-center gap-1 text-sm underline sm:text-base"
+        className="text-light-600 dark:text-dark-600 inline-flex items-center gap-1 text-sm underline sm:text-base"
         href="/resume.pdf"
       >
         Resume
