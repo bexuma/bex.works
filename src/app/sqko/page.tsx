@@ -21,6 +21,12 @@ import {
   DocumentCard,
   ApplicationVideo,
 } from './components'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'SQKO',
+  description: 'University project turned into startup.',
+}
 
 const SqkoPage = () => (
   <main className="px-2 pt-2 sm:px-4 sm:pt-4">

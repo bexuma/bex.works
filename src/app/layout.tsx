@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
-  title: 'Bex!',
-  description: 'Personal website',
+  title: 'bex!',
+  description: 'Professional site of Bexultan Myrzatay.',
 }
 
 export default function RootLayout({
