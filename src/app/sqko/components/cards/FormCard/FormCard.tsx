@@ -30,7 +30,7 @@ export const FormCard = () => (
     </div>
     <div className="mt-2">
       <SectionHeading isMedium heading="Application Form" />
-      <div className="flex flex-col gap-4 sm:h-[600px] sm:flex-row lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
+      <div className="flex flex-col gap-2 sm:h-[600px] sm:flex-row sm:gap-4 lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
         <div className="basis-auto">
           <Video fileName="application-form" />
         </div>
@@ -41,7 +41,7 @@ export const FormCard = () => (
     </div>
     <div className="mt-2">
       <SectionHeading isMedium heading="Student Form" />
-      <div className="flex flex-col gap-4 sm:h-[600px] sm:flex-row lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
+      <div className="flex flex-col gap-2 sm:h-[600px] sm:flex-row sm:gap-4 lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
         <div className="basis-auto">
           <Video fileName="student-form" />
         </div>

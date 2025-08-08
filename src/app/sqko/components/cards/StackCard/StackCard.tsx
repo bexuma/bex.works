@@ -16,7 +16,7 @@ const StackCategory = ({ category }: StackCategoryProps) => (
 
 export const StackCard = () => (
   <Card heading="Stack" centerHeading noSpacing>
-    <div className="flex flex-col gap-4 md:grid md:grid-cols-12">
+    <div className="flex flex-col gap-2 sm:gap-4 md:grid md:grid-cols-12">
       <div className="md:col-span-12 lg:col-span-6">
         <StackCategory category="Backend" />
       </div>

@@ -21,7 +21,7 @@ export const Card = ({
     } ${noSpacing || isMain ? 'space-y-0' : 'space-y-2'} bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 rounded-2xl border-1 p-4`}
   >
     <h4
-      className={`${emoji ? 'self-start' : 'self-center'} text-lg font-semibold capitalize ${isMain || centerHeading ? 'sm:self-center' : 'sm:self-start'}`}
+      className={`${emoji ? 'self-start' : 'self-center'} text-lg font-medium capitalize sm:font-semibold ${isMain || centerHeading ? 'sm:self-center' : 'sm:self-start'}`}
     >
       {emoji && <span className="mr-[6px]">{emoji}</span>}
       {heading}

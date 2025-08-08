@@ -12,7 +12,7 @@ export const ContactLink = ({ link }: ContactLinkProps) => (
       href={link.url}
       target="_blank"
       rel="noopener noreferrer"
-      className="inline-flex items-center gap-1 text-indigo-600 underline"
+      className="text-light-600 dark:text-dark-600 inline-flex items-center gap-1 underline"
     >
       {link.label}
       <div className="block sm:hidden">

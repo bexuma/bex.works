@@ -23,7 +23,7 @@ import {
 } from './components'
 
 const SqkoPage = () => (
-  <main className="px-4 pt-4 font-sans">
+  <main className="px-2 pt-2 sm:px-4 sm:pt-4">
     <div className="container mx-auto">
       <section>
         <BusinessCard />
@@ -60,7 +60,7 @@ const SqkoPage = () => (
             |                  | Failure | Career |
         */}
         <SectionHeading heading="History" />
-        <div className="flex flex-col gap-4 md:grid md:grid-cols-12 md:grid-rows-37 lg:grid-rows-9 xl:grid-rows-none">
+        <div className="flex flex-col gap-2 sm:gap-4 md:grid md:grid-cols-12 md:grid-rows-37 lg:grid-rows-9 xl:grid-rows-none">
           <div className="md:col-span-7 md:row-span-23 lg:col-span-8 lg:row-span-6 xl:col-span-6 xl:row-span-2 2xl:row-span-2">
             <UniversityCard />
           </div>
@@ -108,7 +108,7 @@ const SqkoPage = () => (
             |        TechnicalCard   |            |
         */}
         <SectionHeading heading="Highlights" />
-        <div className="flex flex-col gap-4 sm:grid sm:grid-cols-12 sm:grid-rows-none">
+        <div className="flex flex-col gap-2 sm:grid sm:grid-cols-12 sm:grid-rows-none sm:gap-4">
           <div className="sm:col-span-5 2xl:col-span-3">
             <ProjectCard />
           </div>
@@ -170,7 +170,7 @@ const SqkoPage = () => (
             |App-n|  Document  |                  |
         */}
         <SectionHeading heading="Architecture" />
-        <div className="flex flex-col gap-4 lg:grid lg:grid-cols-12 xl:grid-rows-52 2xl:grid-rows-none">
+        <div className="flex flex-col gap-2 sm:gap-4 lg:grid lg:grid-cols-12 xl:grid-rows-52 2xl:grid-rows-none">
           <div className="lg:col-span-8 xl:col-span-6 xl:row-span-10 2xl:col-span-4 2xl:row-span-1">
             <OverviewCard />
           </div>
@@ -187,7 +187,7 @@ const SqkoPage = () => (
             <FormCard />
           </div>
           <div className="lg:col-span-12 xl:col-span-6 xl:row-span-14 2xl:col-span-6 2xl:row-span-1">
-            <div className="flex flex-col gap-4 sm:flex-row lg:flex-row-reverse">
+            <div className="flex flex-col gap-2 sm:flex-row sm:gap-4 lg:flex-row-reverse">
               <div className="flex-auto sm:flex-1">
                 <DocumentCard />
               </div>
@@ -200,12 +200,12 @@ const SqkoPage = () => (
       </section>
       <section>
         <SectionHeading heading="Misc" />
-        <div className="flex grid-cols-12 flex-col gap-4 lg:grid">
+        <div className="flex grid-cols-12 flex-col gap-2 sm:gap-4 lg:grid">
           <div className="md:col-span-12 xl:col-span-8">
             <StackCard />
           </div>
           <div className="md:col-span-12 xl:col-span-4">
-            <div className="flex h-full flex-col gap-4">
+            <div className="flex h-full flex-col gap-2 sm:gap-4">
               <SkillsCard />
               <ProgramsCard />
               <Card isMain heading="Thank you for reading! ❤️" />
