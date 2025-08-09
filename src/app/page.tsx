@@ -29,7 +29,6 @@ const HomePage = () => (
         </div>
         <div className="flex flex-col gap-2 sm:basis-8/12 sm:gap-4">
           <CareerPlanCard />
-          <StackCard />
           <div className="flex flex-col gap-2 sm:gap-4 md:flex-row">
             <div className="md:basis-6/12">
               <ExpertCard />
@@ -38,6 +37,7 @@ const HomePage = () => (
               <LearnCard />
             </div>
           </div>
+          <StackCard />
           <div className="flex flex-col gap-2 sm:gap-4 md:flex-row">
             <div className="md:basis-auto">
               <StartupCard />
