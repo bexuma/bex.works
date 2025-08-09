@@ -8,7 +8,7 @@ export const Navbar = () => (
       <ThemeToggle />
       <Link
         href="/"
-        className="text-light-400 dark:text-dark-400 absolute left-1/2 -translate-x-1/2 p-2 text-lg font-semibold"
+        className="text-light-400 dark:text-dark-400 absolute left-1/2 z-20 -translate-x-1/2 cursor-pointer px-5 py-1 text-lg font-semibold"
       >
         bex!
       </Link>
