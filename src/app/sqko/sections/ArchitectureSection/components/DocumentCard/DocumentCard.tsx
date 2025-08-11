@@ -18,7 +18,7 @@ export const DocumentCard = () => (
         href="/sample-kk.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-light-600 dark:text-dark-600 inline-flex items-center gap-1 underline"
+        className="text-light-link dark:text-dark-link inline-flex items-center gap-1 underline"
       >
         Open sample document in Kazakh
         <NewTabIcon />
@@ -27,7 +27,7 @@ export const DocumentCard = () => (
         href="/sample-ru.pdf"
         target="_blank"
         rel="noopener noreferrer"
-        className="text-light-600 dark:text-dark-600 inline-flex items-center gap-1 underline"
+        className="text-light-link dark:text-dark-link inline-flex items-center gap-1 underline"
       >
         Open sample document in Russian
         <NewTabIcon />

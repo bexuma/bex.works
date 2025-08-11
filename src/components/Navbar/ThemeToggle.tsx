@@ -21,7 +21,7 @@ export default function ThemeToggle() {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
-          className="text-light-400 dark:text-dark-400 h-5 w-5"
+          className="text-light-text dark:text-dark-text h-5 w-5"
         >
           <path
             fill="none"
@@ -35,7 +35,7 @@ export default function ThemeToggle() {
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 16"
-          className="text-light-400 dark:text-dark-400 h-5 w-5"
+          className="text-light-text dark:text-dark-text h-5 w-5"
         >
           <path
             fill="none"

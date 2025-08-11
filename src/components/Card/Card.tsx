@@ -22,7 +22,7 @@ export const Card = ({
       isMain && 'justify-center text-center'
     } ${noSpacing || isMain ? 'space-y-0' : 'space-y-2'} ${
       minPadding ? 'px-2 py-4' : 'p-4'
-    } text-light-400 dark:text-dark-400 bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 flex h-full flex-col rounded-2xl border-1 shadow-xs sm:shadow-none dark:shadow-none`}
+    } text-light-text dark:text-dark-text bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 flex h-full flex-col rounded-2xl border-1 shadow-xs sm:shadow-none dark:shadow-none`}
   >
     <h4
       className={`${emoji ? 'self-start' : 'self-center'} text-lg font-medium capitalize sm:font-semibold ${isMain || centerHeading ? 'sm:self-center' : 'sm:self-start'}`}

@@ -8,7 +8,7 @@ export const HistoryCard = () => (
         Founded a SaaS startup with an EDMS for universities;{' '}
         <Link
           href="/sqko"
-          className="text-light-600 dark:text-dark-600 underline"
+          className="text-light-link dark:text-dark-link underline"
         >
           sunsetted to pursue a full-time career
         </Link>

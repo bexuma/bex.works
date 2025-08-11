@@ -12,7 +12,7 @@ export const SectionHeading = ({
   >
     <div className="border-light-300 dark:border-dark-300 flex-grow border-t-2" />
     <h2
-      className={`text-light-400 dark:text-dark-400 text-center ${isMedium ? 'text-lg' : 'text-xl font-medium sm:text-2xl'}`}
+      className={`text-light-text dark:text-dark-text text-center ${isMedium ? 'text-lg' : 'text-xl font-medium sm:text-2xl'}`}
     >
       {heading}
     </h2>
