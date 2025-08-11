@@ -12,7 +12,7 @@ export const MiscSection = () => (
         <div className="flex h-full flex-col gap-2 sm:gap-4">
           <SkillsCard />
           <ProgramsCard />
-          <Card isMain heading="Thank you for reading! ❤️" />
+          <Card isMain heading="Thank you for reading!" bgImg="/carpet.webp" />
         </div>
       </div>
     </div>
