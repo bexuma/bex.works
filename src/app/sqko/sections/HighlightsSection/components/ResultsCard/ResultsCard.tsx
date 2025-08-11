@@ -1,7 +1,7 @@
 import { Card, List } from '@/components'
 
 export const ResultsCard = () => (
-  <Card heading="Results">
+  <Card heading="End results">
     <div className="space-y-1">
       <p>
         The project had a significant impact on university operations. By
