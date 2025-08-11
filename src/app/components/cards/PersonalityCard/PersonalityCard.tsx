@@ -5,9 +5,9 @@ export const PersonalityCard = () => (
     <List
       list={[
         'Core values: freedom, authenticity, potential',
-        'CliftonStrengths (top 5): futuristic, learner, responsibility, maximizer, ideation',
-        'Big Five: intellectually curious; orderly and principled; highly enthusiastic and assertive; compassionate yet candid; emotionally steady',
         'MBTI: ENFJ',
+        'Big Five: intellectually curious; orderly and principled; highly enthusiastic and assertive; compassionate yet candid; emotionally steady',
+        'CliftonStrengths (top 5): futuristic, learner, responsibility, maximizer, ideation',
       ]}
     />
   </Card>

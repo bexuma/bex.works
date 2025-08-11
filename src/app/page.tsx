@@ -31,10 +31,10 @@ const HomePage = () => (
           <CareerPlanCard />
           <div className="flex flex-col gap-2 sm:gap-4 md:flex-row">
             <div className="md:basis-6/12">
-              <ExpertCard />
+              <LearnCard />
             </div>
             <div className="md:basis-6/12">
-              <LearnCard />
+              <ExpertCard />
             </div>
           </div>
           <StackCard />
