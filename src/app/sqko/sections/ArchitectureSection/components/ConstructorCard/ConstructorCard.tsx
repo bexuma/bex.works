@@ -2,7 +2,7 @@ import { Card, SectionHeading } from '@/components'
 import Image from 'next/image'
 
 export const ConstructorCard = () => (
-  <Card heading="Business logic contructor">
+  <Card heading="Business logic constructor">
     <div className="space-y-2">
       <p>
         Even with a single client, the platform required managing multiple
@@ -17,7 +17,7 @@ export const ConstructorCard = () => (
           heading="Certificate of Enrollment Lifecycle"
         />
         <Image
-          src="/contructor.webp"
+          src="/constructor.webp"
           alt=""
           width={1600}
           height={972}
@@ -39,7 +39,7 @@ export const ConstructorCard = () => (
           heading="Premature Dorm Application Deployment"
         />
         <Image
-          src="/contructor-dorm.webp"
+          src="/constructor-dorm.webp"
           alt=""
           width={1600}
           height={972}
