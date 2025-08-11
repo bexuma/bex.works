@@ -8,16 +8,30 @@ interface ContactLinkProps {
 
 export const ContactLink = ({ link }: ContactLinkProps) => (
   <div className="basis-1/3 text-center sm:basis-auto sm:text-start">
-    <Link
-      href={link.url}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-light-link dark:text-dark-link inline-flex items-center gap-1 underline"
-    >
-      {link.label}
-      <div className="block sm:hidden">
-        <NewTabIcon />
-      </div>
-    </Link>
+    {link.isStaticFile ? (
+      <a
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-light-link dark:text-dark-link inline-flex items-center gap-1 underline"
+      >
+        {link.label}
+        <div className="block sm:hidden">
+          <NewTabIcon />
+        </div>
+      </a>
+    ) : (
+      <Link
+        href={link.url}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-light-link dark:text-dark-link inline-flex items-center gap-1 underline"
+      >
+        {link.label}
+        <div className="block sm:hidden">
+          <NewTabIcon />
+        </div>
+      </Link>
+    )}
   </div>
 )

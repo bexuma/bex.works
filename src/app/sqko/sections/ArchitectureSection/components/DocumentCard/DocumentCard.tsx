@@ -1,5 +1,4 @@
 import { Card, NewTabIcon } from '@/components'
-import Link from 'next/link'
 
 export const DocumentCard = () => (
   <Card heading="Digital documents">
@@ -15,7 +14,7 @@ export const DocumentCard = () => (
       ></iframe>
     </div>
     <div className="flex flex-col gap-1 sm:hidden">
-      <Link
+      <a
         href="/sample-kk.pdf"
         target="_blank"
         rel="noopener noreferrer"
@@ -23,8 +22,8 @@ export const DocumentCard = () => (
       >
         Open sample document in Kazakh
         <NewTabIcon />
-      </Link>
-      <Link
+      </a>
+      <a
         href="/sample-ru.pdf"
         target="_blank"
         rel="noopener noreferrer"
@@ -32,7 +31,7 @@ export const DocumentCard = () => (
       >
         Open sample document in Russian
         <NewTabIcon />
-      </Link>
+      </a>
     </div>
   </Card>
 )

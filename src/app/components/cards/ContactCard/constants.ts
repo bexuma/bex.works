@@ -4,6 +4,7 @@ export const LINKS: ContactLinkType[] = [
   {
     label: 'Resume',
     url: '/resume.pdf',
+    isStaticFile: true,
   },
   {
     label: 'LinkedIn',

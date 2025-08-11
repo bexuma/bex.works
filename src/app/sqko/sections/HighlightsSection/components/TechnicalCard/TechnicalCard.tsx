@@ -21,7 +21,7 @@ export const TechnicalCard = () => (
       <p>
         Throughout iterations, by retiring features like the Application Time
         Machine and shutting down the mobile app development, I learned to not
-        overcomplicate the product and to focus on key features instead.
+        overcomplicate the product and to focus on key features.
       </p>
     </div>
   </Card>
