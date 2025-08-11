@@ -1,0 +1,5 @@
+export { HistorySection } from './HistorySection'
+export { HighlightsSection } from './HighlightsSection'
+export { ArchitectureSection } from './ArchitectureSection'
+export { MiscSection } from './MiscSection'
+export { ProjectNameSection } from './ProjectNameSection'
