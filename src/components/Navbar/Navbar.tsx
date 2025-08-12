@@ -8,9 +8,14 @@ export const Navbar = () => (
       <ThemeToggle />
       <Link
         href="/"
-        className="text-light-text dark:text-dark-text absolute left-1/2 z-20 -translate-x-1/2 cursor-pointer px-5 py-1 text-lg font-semibold"
+        className="absolute left-1/2 z-20 flex -translate-x-1/2 cursor-pointer flex-col items-center justify-center gap-1 px-5 py-1 font-semibold sm:gap-1.5"
       >
-        bex!
+        <span className="text-light-text dark:text-dark-text text-lg leading-none">
+          bex!
+        </span>
+        <span className="text-light-link dark:text-dark-link text-[9px] leading-none uppercase">
+          Open to work
+        </span>
       </Link>
       <a
         rel="noopener noreferrer"
