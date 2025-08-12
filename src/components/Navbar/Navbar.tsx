@@ -3,7 +3,7 @@ import { NewTabIcon } from '../NewTabIcon'
 import ThemeToggle from './ThemeToggle'
 
 export const Navbar = () => (
-  <nav className="bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 sticky top-0 z-10 flex border-b-1 px-4 font-sans">
+  <nav className="bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 sticky top-0 z-10 flex border-b-1 px-4 shadow-xs sm:shadow-none dark:shadow-none">
     <div className="relative container mx-auto flex h-14 flex-row items-center justify-between sm:h-16">
       <ThemeToggle />
       <Link
