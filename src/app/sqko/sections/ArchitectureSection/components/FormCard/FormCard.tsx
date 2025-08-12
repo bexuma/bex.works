@@ -28,22 +28,18 @@ export const FormCard = () => (
     </div>
     <div className="mt-2">
       <SectionHeading isMedium heading="Application Form" />
-      <div className="flex flex-col gap-4 sm:h-[600px] sm:flex-row lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
-        <div className="basis-auto">
-          <Video fileName="application-form" />
-        </div>
-        <div className="h-[600px] sm:h-auto sm:flex-1">
+      <div className="flex h-auto flex-col gap-4 sm:h-[600px] sm:flex-row lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
+        <Video fileName="application-form" />
+        <div className="flex-1">
           <CodeWindow code="APPLICATION_FORM" />
         </div>
       </div>
     </div>
     <div className="mt-2">
       <SectionHeading isMedium heading="Student Form" />
-      <div className="flex flex-col gap-4 sm:h-[600px] sm:flex-row lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
-        <div className="basis-auto">
-          <Video fileName="student-form" />
-        </div>
-        <div className="h-[600px] sm:h-auto sm:flex-1">
+      <div className="flex h-auto flex-col gap-4 sm:h-[600px] sm:flex-row lg:h-[700px] xl:h-[600px] 2xl:h-[700px]">
+        <Video fileName="student-form" />
+        <div className="flex-1">
           <CodeWindow code="STUDENT_FORM" />
         </div>
       </div>

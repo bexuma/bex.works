@@ -24,9 +24,7 @@ export const UniversityCard = () => (
     {/* </div> */}
     <div>
       <SectionHeading isMedium heading="v1" />
-      <div>
-        <Video fileName="demo-v1" />
-      </div>
+      <Video fileName="demo-v1" autoHeight />
     </div>
   </Card>
 )

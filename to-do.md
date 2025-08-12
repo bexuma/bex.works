@@ -9,6 +9,7 @@ DONE-2 | 1    - Resume: update resume.pdf
 DONE-3 | 5    - add dark/light mode toggle
 DONE-2 | 2    - keep gaps to be 2 on mobile
 DONE-2 | 3    - fix the pdf preview on mobile, use images instead?? // used links!
+DONE-5 | 3-5  - video responsiveness on Safari damages the layout
 
 TODO
-2-3 - on xl the application video responsiveness is poor
+- update max-h of CodeWindow. Currently 700px which is too much for some small mobile screens.

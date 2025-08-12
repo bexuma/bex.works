@@ -21,7 +21,13 @@ export const CodeWindow = ({ code }: CodeWindowProps) => {
   )
 
   return (
-    <div className="border-light-300 dark:border-dark-300 flex h-full flex-col rounded-lg border font-mono text-sm">
+    <div
+      className="border-light-300 dark:border-dark-300 flex h-full flex-col rounded-lg border font-mono text-sm"
+      style={{
+        // Safari doesn't get max-h-[700px]
+        maxHeight: '700px',
+      }}
+    >
       <div className="flex shrink-0 flex-row overflow-hidden rounded-t-lg border-b border-[#3c3c3c] bg-[#252526]">
         {Object.keys(files).map((file) => (
           <button
