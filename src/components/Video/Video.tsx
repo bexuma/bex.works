@@ -9,7 +9,13 @@ export const Video = ({ fileName, autoHeight = false }: VideoProps) => (
     loop
     muted
     playsInline
-    className={`${autoHeight ? 'h-auto' : 'h-full'} border-light-300 dark:border-dark-300 w-auto overflow-hidden rounded-lg border`}
+    className={`border-light-300 dark:border-dark-300 w-auto overflow-hidden rounded-lg border sm:min-h-0`}
+    style={{
+      height: autoHeight ? 'auto' : '100%',
+      display: 'block',
+      maxHeight: '100%',
+      objectFit: 'cover',
+    }}
   >
     <source src={`/${fileName}.webm`} type="video/webm" />
     <source src={`/${fileName}.mp4`} type="video/mp4" />
