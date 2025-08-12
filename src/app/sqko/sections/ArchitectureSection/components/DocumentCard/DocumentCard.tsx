@@ -10,7 +10,7 @@ export const DocumentCard = () => (
       <iframe
         title="card"
         src="/sample-ru.pdf"
-        className="border-light-300 dark:border-dark-300 h-[450px] w-full min-w-[290px] rounded-lg border sm:h-[450px] md:h-[570px] xl:h-[520px] 2xl:h-[570px]"
+        className="border-light-300 dark:border-dark-300 h-[450px] w-full min-w-[250px] rounded-lg border sm:h-[450px] md:h-[570px] xl:h-[480px] 2xl:h-[580px]"
       ></iframe>
     </div>
     <div className="flex flex-col gap-1 sm:hidden">
