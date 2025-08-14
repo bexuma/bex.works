@@ -15,15 +15,15 @@ export const Footer = async () => {
     )
   }
 
-  const { shaShort, additions, deletions, htmlUrl } = data
+  const { htmlUrl, shaShort, additions, deletions } = data
 
   return (
     <footer className="px-4">
       <div className="text-light-border dark:text-dark-border container mx-auto flex h-14 items-center text-sm sm:h-16">
-        <div className="basis-8/12 lg:ml-auto lg:basis-4/12 lg:text-center">
+        <div className="basis-8/12 md:ml-auto md:basis-4/12 md:text-center">
           <span>© 2025 Bexultan Myrzatay</span>
         </div>
-        <div className="basis-4/12 text-right lg:basis-4/12">
+        <div className="basis-4/12 text-right md:basis-4/12">
           <a
             href={htmlUrl}
             target="_blank"
