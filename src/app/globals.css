@@ -5,12 +5,14 @@
   --font-mono: var(--font-geist-mono);
 
   /* wireframe */
-  --color-light-100: oklch(100% 0 0);
-  --color-light-200: oklch(97% 0 0);
+  --color-light-100: var(--color-white);
+  --color-light-200: var(--color-neutral-100);
   --color-light-300: oklch(94% 0 0);
-  --color-light-text: oklch(20% 0 0);
+  --color-light-text: var(--color-neutral-900);
   --color-light-border: rgb(115, 115, 115);
-  --color-light-link: oklch(44% 0.11 240.79);
+  --color-light-link: var(--color-sky-800);
+  --color-light-green: var(--color-emerald-800);
+  --color-light-red: var(--color-red-800);
 
   /* dim */
   --color-dark-100: oklch(30.857% 0.023 264.149);
@@ -19,6 +21,8 @@
   --color-dark-text: oklch(82.901% 0.031 222.959);
   --color-dark-border: rgb(127, 141, 152);
   --color-dark-link: oklch(86.133% 0.141 139.549);
+  --color-dark-green: oklch(86.171% 0.142 166.534);
+  --color-dark-red: oklch(82.418% 0.099 33.756);
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
