@@ -9,7 +9,7 @@ export const ResultsCard = () => (
       </p>
       <List
         list={[
-          'Process over 30,000 applications, cutting administrative costs by 80%',
+          'Process over 30,000 applications, reducing office costs by 80%',
           'Generate over 2,500 digital documents without the need for manual printing',
           'Make visiting the office of Student Service Center obsolete',
         ]}
