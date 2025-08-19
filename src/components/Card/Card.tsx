@@ -3,6 +3,7 @@ interface CardProps {
   centerHeading?: boolean
   bgImg?: string
   emoji?: string
+  hFullOff?: boolean
   isMain?: boolean
   minPadding?: boolean
   noSpacing?: boolean
@@ -13,18 +14,19 @@ export const Card = ({
   heading,
   centerHeading = false,
   bgImg = undefined,
-  emoji,
+  emoji = undefined,
+  hFullOff = false,
   isMain = false,
   minPadding = false,
   noSpacing = false,
   children,
 }: CardProps) => (
   <div
-    className={`${
-      isMain && 'justify-center text-center'
-    } ${noSpacing || isMain ? 'space-y-0' : 'space-y-2'} ${
-      minPadding ? 'px-2 py-4' : 'p-4'
-    } text-light-text dark:text-dark-text bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 flex h-full flex-col rounded-2xl border-1 shadow-xs sm:shadow-none dark:shadow-none`}
+    className={`${isMain && 'justify-center text-center'} ${
+      noSpacing || isMain ? 'space-y-0' : 'space-y-2'
+    } ${minPadding ? 'px-2 py-4' : 'p-4'} ${
+      hFullOff ? 'h-auto' : 'h-full'
+    } text-light-text dark:text-dark-text bg-light-100 dark:bg-dark-100 border-light-300 dark:border-dark-300 flex flex-col rounded-2xl border-1 shadow-xs sm:shadow-none dark:shadow-none`}
     {...(bgImg && {
       style: {
         backgroundImage: `url(${bgImg})`,
