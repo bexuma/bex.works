@@ -2,7 +2,7 @@ import {
   InsightsCard,
   ProjectCard,
   ResultsCard,
-  TechnicalCard,
+  HiringCard,
 } from './components'
 import { Section } from '../../components'
 
@@ -19,7 +19,7 @@ export const HighlightsSection = () => (
         <InsightsCard />
       </div>
       <div className="sm:col-span-12 2xl:col-span-8">
-        <TechnicalCard />
+        <HiringCard />
       </div>
     </div>
   </Section>

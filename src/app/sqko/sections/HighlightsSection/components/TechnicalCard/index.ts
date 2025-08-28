@@ -1,1 +1,0 @@
-export { TechnicalCard } from './TechnicalCard'
