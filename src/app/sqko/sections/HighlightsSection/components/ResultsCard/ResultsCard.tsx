@@ -5,13 +5,13 @@ export const ResultsCard = () => (
     <div className="space-y-1">
       <p>
         The project had a significant impact on university operations. By
-        automating and digitizing key processes, the solution was able to:
+        automating and digitizing key processes, the solution had:
       </p>
       <List
         list={[
-          'Process over 30,000 applications, reducing office costs by 80%',
-          'Generate over 2,500 digital documents without the need for manual printing',
-          'Make visiting the office of Student Service Center obsolete',
+          'Processed over 30,000 applications, reducing office costs by 80%',
+          'Generated over 2,500 digital documents without the need for manual printing',
+          'Made visiting the office of Student Service Center obsolete',
         ]}
       />
     </div>
