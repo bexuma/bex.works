@@ -39,7 +39,7 @@ export const Card = ({
       className={`${emoji ? 'self-start' : 'self-center'} ${
         bgImg
           ? 'text-light-100 bg-light-text dark:text-dark-100 dark:bg-dark-text rounded-lg px-2 text-lg font-semibold sm:py-0.5 sm:text-xl sm:font-bold'
-          : 'text-lg font-medium sm:font-semibold'
+          : 'text-lg font-semibold'
       } capitalize ${isMain || centerHeading ? 'sm:self-center' : 'sm:self-start'}`}
     >
       {emoji && <span className="mr-[6px]">{emoji}</span>}
