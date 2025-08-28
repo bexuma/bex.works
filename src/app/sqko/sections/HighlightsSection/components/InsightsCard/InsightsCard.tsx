@@ -5,8 +5,8 @@ export const InsightsCard = () => (
   <Card heading="First-hand insights">
     <div className="space-y-1">
       <p>
-        The entrepreneurial journey provided a number of critical lessons, both
-        strategic and operational:
+        My entrepreneurial journey taught me a number of critical strategic and
+        operational lessons:
       </p>
       <List list={INSIGHT_LIST} />
     </div>
