@@ -3,7 +3,7 @@ import { ContactLinkType } from '.'
 export const LINKS: ContactLinkType[] = [
   {
     label: 'Resume',
-    url: '/resume.pdf',
+    url: '/resume-product-ru.pdf',
     isStaticFile: true,
   },
   {
@@ -16,11 +16,11 @@ export const LINKS: ContactLinkType[] = [
   },
   {
     label: 'Telegram',
-    url: 'https://t.me/+77003152500',
+    url: 'https://t.me/+77072927925',
   },
   {
     label: 'WhatsApp',
-    url: 'https://wa.me/+77003152500',
+    url: 'https://wa.me/+77072927925',
   },
   {
     label: 'Email',
