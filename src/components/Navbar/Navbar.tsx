@@ -21,7 +21,7 @@ export const Navbar = () => (
         rel="noopener noreferrer"
         target="_blank"
         className="text-light-link dark:text-dark-link inline-flex items-center gap-1 text-sm underline sm:text-base"
-        href="/resume-product-ru.pdf"
+        href="/resume.pdf"
       >
         Resume
         <NewTabIcon />
