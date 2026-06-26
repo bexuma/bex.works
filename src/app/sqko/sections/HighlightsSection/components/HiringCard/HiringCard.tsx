@@ -11,7 +11,7 @@ export const HiringCard = () => (
       <List
         list={[
           'Attempted to convert a freelance developer who had built the mobile app into a co-founder, though the demands of a startup were higher than they could contribute at the time',
-          'Hired and trained a smart and honest extraverted person with a desire to switch careers (turned out those traits were enough) and no coding background into a full-stack developer. After a one-month apprenticeship, they were assigned to work on the Document Factory microservice and gradually contributed across projects. Following their time with me, they have already worked in two medium-sized local companies, first as a QA and then as a Frontend Developer',
+          'Hired and trained a smart and honest extraverted person with a desire to switch careers (turned out those traits were enough) and no coding background into a full-stack developer. After a one-month apprenticeship, they were assigned to work on the Document Factory microservice and gradually contributed across projects. Following their time with me, they have already worked in two medium-sized local companies, first as a QA and then as a Backend Developer',
           'Organized and led a one-month internship for a high school graduate who worked on frontend tasks',
         ]}
       />
