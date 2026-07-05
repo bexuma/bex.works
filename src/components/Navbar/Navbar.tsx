@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { NewTabIcon } from '../NewTabIcon'
+import { ResumeMenu } from '../ResumeMenu'
 import ThemeToggle from './ThemeToggle'
 
 export const Navbar = () => (
@@ -17,15 +17,7 @@ export const Navbar = () => (
           Open to work
         </span>
       </Link>
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        className="text-light-link dark:text-dark-link inline-flex items-center gap-1 text-sm underline sm:text-base"
-        href="/resume-product-ru.pdf"
-      >
-        Resume
-        <NewTabIcon />
-      </a>
+      <ResumeMenu align="right" triggerClassName="text-sm sm:text-base" />
     </div>
   </nav>
 )

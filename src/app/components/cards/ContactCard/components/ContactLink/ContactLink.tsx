@@ -1,4 +1,4 @@
-import { NewTabIcon } from '@/components'
+import { NewTabIcon, ResumeMenu } from '@/components'
 import Link from 'next/link'
 import { ContactLinkType } from '../..'
 
@@ -8,7 +8,9 @@ interface ContactLinkProps {
 
 export const ContactLink = ({ link }: ContactLinkProps) => (
   <div className="basis-1/3 text-center sm:basis-auto sm:text-start">
-    {link.isStaticFile ? (
+    {link.variant === 'menu' ? (
+      <ResumeMenu />
+    ) : link.isStaticFile ? (
       <a
         href={link.url}
         target="_blank"
