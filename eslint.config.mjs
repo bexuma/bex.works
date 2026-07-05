@@ -1,4 +1,6 @@
 import { FlatCompat } from '@eslint/eslintrc'
+import nextCoreWebVitals from 'eslint-config-next/core-web-vitals'
+import nextTypescript from 'eslint-config-next/typescript'
 
 const compat = new FlatCompat({
   // import.meta.dirname is available after Node.js v20.11.0
@@ -6,15 +8,10 @@ const compat = new FlatCompat({
 })
 
 const eslintConfig = [
-  ...compat.config({
-    extends: [
-      'next',
-      'next/core-web-vitals',
-      'next/typescript',
-      'plugin:prettier/recommended',
-      'plugin:jsx-a11y/recommended',
-    ],
-    plugins: ['prettier', 'jsx-a11y'],
+  ...nextCoreWebVitals,
+  ...nextTypescript,
+  ...compat.extends('plugin:prettier/recommended'),
+  {
     rules: {
       'prettier/prettier': [
         'error',
@@ -40,7 +37,7 @@ const eslintConfig = [
       'jsx-a11y/role-has-required-aria-props': 'warn',
       'jsx-a11y/role-supports-aria-props': 'warn',
     },
-  }),
+  },
 ]
 
 export default eslintConfig

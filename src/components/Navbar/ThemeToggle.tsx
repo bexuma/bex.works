@@ -7,6 +7,9 @@ export default function ThemeToggle() {
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
+    // Deliberate: this flips exactly once to skip SSR/client hydration
+    // mismatch on theme, not to react to external state changes.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMounted(true)
   }, [])
 
