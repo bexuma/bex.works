@@ -3,7 +3,7 @@ import { ContactLinkType } from '.'
 export const LINKS: ContactLinkType[] = [
   {
     label: 'Resume',
-    url: '/resume.pdf',
+    url: '/resume-product-ru.pdf',
     isStaticFile: true,
   },
   {
