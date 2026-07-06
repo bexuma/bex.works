@@ -9,6 +9,8 @@ export const Video = ({ fileName, autoHeight = false }: VideoProps) => (
     loop
     muted
     playsInline
+    preload="metadata"
+    poster={`/${fileName}-poster.webp`}
     className={`border-light-300 dark:border-dark-300 w-auto overflow-hidden rounded-lg border sm:min-h-0`}
     style={{
       height: autoHeight ? 'auto' : '100%',
