@@ -2,13 +2,14 @@ import { getLatestCommit } from '@/lib/github'
 
 export const Footer = async () => {
   const data = await getLatestCommit()
+  const year = new Date().getFullYear()
 
   if (!data) {
     return (
       <footer className="px-4">
         <div className="container mx-auto flex h-14 items-center justify-center sm:h-16">
           <span className="text-light-border dark:text-dark-border text-sm">
-            © 2025 Bexultan Myrzatay
+            © {year} Bexultan Myrzatay
           </span>
         </div>
       </footer>
@@ -21,7 +22,7 @@ export const Footer = async () => {
     <footer className="px-4">
       <div className="text-light-border dark:text-dark-border container mx-auto flex h-14 items-center text-sm sm:h-16">
         <div className="basis-8/12 md:ml-auto md:basis-4/12 md:text-center">
-          <span>© 2025 Bexultan Myrzatay</span>
+          <span>© {year} Bexultan Myrzatay</span>
         </div>
         <div className="basis-4/12 text-right md:basis-4/12">
           <a

@@ -14,8 +14,24 @@ const geistMono = Geist_Mono({
 })
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://bex.works'),
   title: 'bex!',
-  description: 'Professional site of Bexultan Myrzatay.',
+  description:
+    'Bexultan Myrzatay — Product Manager with an engineering foundation and founder experience.',
+  openGraph: {
+    title: 'Bexultan Myrzatay',
+    description:
+      'Product Manager with an engineering foundation and founder experience.',
+    url: 'https://bex.works',
+    siteName: 'bex!',
+    type: 'website',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Bexultan Myrzatay',
+    description:
+      'Product Manager with an engineering foundation and founder experience.',
+  },
 }
 
 export default function RootLayout({
