@@ -5,8 +5,8 @@ export const HistoryCard = () => (
   <Card emoji="🌟" heading="Latest history">
     <ul className="space-y-1">
       <li className="before:mr-1 before:content-['–']">
-        Gathered requirements on 6 projects across Bio, HR, Logistics, Hotel,
-        Agriculture, Sports Tech
+        Designed a single-source-of-truth spec system for AgrOS, a seven-app
+        AgTech platform, ensuring consistent requirements across all apps
       </li>
       <li className="before:mr-1 before:content-['–']">
         Founded, operated, and successfully commercialized a university SaaS
