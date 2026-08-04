@@ -25,6 +25,8 @@ export const DocumentFactoryCard = () => (
         width={1600}
         height={972}
         sizes="(min-width: 1536px) 60vw, (min-width: 1280px) 50vw, 100vw"
+        placeholder="blur"
+        blurDataURL="data:image/webp;base64,UklGRjYAAABXRUJQVlA4ICoAAACwAQCdASoQAAoAAsBMJaQAAudVXdGAAP75cTjmhTwrt0J/bc46TRlQsAA="
         className="border-light-300 dark:border-dark-300 h-auto w-full rounded-lg border object-contain"
       />
     </div>
